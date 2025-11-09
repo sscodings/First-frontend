@@ -1,0 +1,181 @@
+html{
+    background-color: black;
+}
+
+.interface{
+    display: grid;
+    border: 10px solid white;
+    grid-template-rows: repeat(8,100px);
+    grid-template-columns: repeat(8,100px);
+    width: 800px;
+    height: 800px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+#screen{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border: 1px solid yellow;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    border-radius: 20px;
+}
+#clean{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid yellow;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    border-radius: 20px;
+}
+.num{
+    border: 1px solid red;
+    margin: 1px;
+    color: white;
+    font-size: 60px;
+    padding: 90px;
+    background-color: black;
+    border-radius: 20px;
+}
+#one{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#two{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    
+}
+#three{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+#four{
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#five{
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#six{
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start:5;
+    grid-column-end: 7;
+}
+#seven{
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#eight{
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#nine{
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+#zero{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    padding: 20x;
+    background-color: black; 
+    margin: 1px;
+    border-radius: 20px;
+}
+#add{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: black; 
+    margin: 1px;
+    text-align: center;
+    border-radius: 20px;
+}
+#subtract{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: black; 
+    margin: 1px;
+    border-radius: 20px;
+}
+#multiply{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: black; 
+    margin: 1px;
+    border-radius: 20px;
+}
+#divide{
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: black; 
+    margin: 1px;
+    border-radius: 20px;
+}
+#equal{
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: black; 
+    margin: 1px;
+    border-radius: 20px;
+}
+
+
