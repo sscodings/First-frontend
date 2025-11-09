@@ -98,11 +98,7 @@ html{
     grid-column-start: 5;
     grid-column-end: 7;
 }
-#zero{
-    grid-row-start: 3;
-    grid-row-end: 3;
-    grid-column-start: 7;
-    grid-column-end: 9;
+.operators{
     border: 1px solid red;
     color: white;
     font-size: 40px;
@@ -111,71 +107,39 @@ html{
     margin: 1px;
     border-radius: 20px;
 }
+#zero{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
 #add{
     grid-row-start: 4;
     grid-row-end: 4;
     grid-column-start: 7;
     grid-column-end: 9;
-    border: 1px solid red;
-    color: white;
-    font-size: 40px;
-    padding: 20px;
-    background-color: black; 
-    margin: 1px;
-    text-align: center;
-    border-radius: 20px;
 }
 #subtract{
     grid-row-start: 5;
     grid-row-end: 5;
     grid-column-start: 7;
     grid-column-end: 9;
-    border: 1px solid red;
-    color: white;
-    font-size: 40px;
-    padding: 20px;
-    background-color: black; 
-    margin: 1px;
-    border-radius: 20px;
 }
 #multiply{
     grid-row-start: 6;
     grid-row-end: 6;
     grid-column-start: 7;
     grid-column-end: 9;
-    border: 1px solid red;
-    color: white;
-    font-size: 40px;
-    padding: 20px;
-    background-color: black; 
-    margin: 1px;
-    border-radius: 20px;
 }
 #divide{
     grid-row-start: 7;
     grid-row-end: 7;
     grid-column-start: 7;
     grid-column-end: 9;
-    border: 1px solid red;
-    color: white;
-    font-size: 40px;
-    padding: 20px;
-    background-color: black; 
-    margin: 1px;
-    border-radius: 20px;
 }
 #equal{
     grid-row-start: 8;
     grid-row-end: 8;
     grid-column-start: 7;
     grid-column-end: 9;
-    border: 1px solid red;
-    color: white;
-    font-size: 40px;
-    padding: 20px;
-    background-color: black; 
-    margin: 1px;
-    border-radius: 20px;
 }
-
-
